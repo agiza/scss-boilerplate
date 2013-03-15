@@ -1,0 +1,83 @@
+/**
+ * @file
+ * Short description of this file
+ */
+/**
+ * @file
+ * bootstrap/_variables.scss
+ * Defines the common breakpoint, mixins used throughout the site.
+ */
+/**
+ * Provides a naming structure for bold/selective design/responsive
+ * breakpoints.
+ * 
+ * @usage:
+ *   bootstrap/_respond-to.scss
+ * @suggestion:
+ *   layouts/layout-{variable}.scss - for consistency
+ */
+/**
+ * @file
+ * bootstrap/_respond-to.scss
+ * Defines the common breakpoint, mixins used throughout the site.
+ */
+/**
+ *! Provides a
+ *
+ *! @param $primary
+ *!   .
+ *! @param $secondary
+ *!   .
+ */
+/*
+@include respond-to(500px) { //min-width is default
+}
+
+@include respond-to(800px, max-width) {
+}
+
+@include respond-to(500px, 800px) {
+}
+
+@include respond-to($small) {
+}
+
+@include respond-to($upto-medium) {
+}
+*/
+/**
+ * @file
+ * base/_headings/scss
+ * 
+ * @todo:
+ * Appears-in syntax
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/webthingee\/Sites\/projects\/drupal-7\.21\/sites\/all\/themes\/amend\/scss\/base\/_headings\.scss}line{font-family:\0000319}}
+h1 {
+  font-size: 2rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/webthingee\/Sites\/projects\/drupal-7\.21\/sites\/all\/themes\/amend\/scss\/base\/_headings\.scss}line{font-family:\0000322}}
+h2 {
+  font-size: 1.8rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/webthingee\/Sites\/projects\/drupal-7\.21\/sites\/all\/themes\/amend\/scss\/base\/_headings\.scss}line{font-family:\0000325}}
+h3 {
+  font-size: 1.7rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/webthingee\/Sites\/projects\/drupal-7\.21\/sites\/all\/themes\/amend\/scss\/base\/_headings\.scss}line{font-family:\0000337}}
+.page-title {
+  @extends %page-title;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/webthingee\/Sites\/projects\/drupal-7\.21\/sites\/all\/themes\/amend\/scss\/base\/_headings\.scss}line{font-family:\0000340}}
+.node-article .page-title {
+  color: purple;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/webthingee\/Sites\/projects\/drupal-7\.21\/sites\/all\/themes\/amend\/scss\/base\/_headings\.scss}line{font-family:\0000346}}
+.page-title--uppercase {
+  @extends %page-title;
+  text-transform: uppercase;
+}

@@ -1,0 +1,7 @@
+name = codename: Amend
+description = A starting point for Sass based Drupal Theme Development.
+core = 7.x
+
+styelsheets[all][] = css/normalize.css
+styelsheets[all][] = css/style.css
+
