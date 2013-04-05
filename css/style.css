@@ -17,6 +17,9 @@
  *   layouts/layout-{variable}.scss - for consistency
  */
 /**
+ * Some defaults leveraging this breakpoints mixin.
+ */
+/**
  * @file
  * bootstrap/_respond-to.scss
  * Defines the common breakpoint, mixins used throughout the site.
