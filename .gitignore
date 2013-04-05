@@ -1,0 +1,5 @@
+## generic files to ignore
+
+## generic folders to ignore
+.idea
+.sass-cache
