@@ -1,6 +1,5 @@
 ### Layout
-
-Purpose of the layout directory
+___
 
 ### Layout Directory Details
 * Parent directory is 'layout'.
