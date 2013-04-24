@@ -2,6 +2,7 @@
  * @file
  * Short description of this file
  */
+/* Global utility mixins and vars etc. */
 /**
  * @file
  * bootstrap/_variables.scss
@@ -48,6 +49,7 @@
 @include respond-to($upto-medium) {
 }
 */
+/* Base styles; unclassed HTML elements etc. */
 /**
  * @file
  * base/_headings/scss
@@ -55,32 +57,35 @@
  * @todo:
  * Appears-in syntax
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/webthingee\/Sites\/projects\/drupal-7\.21\/sites\/all\/themes\/amend\/scss\/base\/_headings\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krisbulman\/code\/scss-boilerplate\/scss\/base\/_headings\.scss}line{font-family:\0000319}}
 h1 {
   font-size: 2rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/webthingee\/Sites\/projects\/drupal-7\.21\/sites\/all\/themes\/amend\/scss\/base\/_headings\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krisbulman\/code\/scss-boilerplate\/scss\/base\/_headings\.scss}line{font-family:\0000322}}
 h2 {
   font-size: 1.8rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/webthingee\/Sites\/projects\/drupal-7\.21\/sites\/all\/themes\/amend\/scss\/base\/_headings\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krisbulman\/code\/scss-boilerplate\/scss\/base\/_headings\.scss}line{font-family:\0000325}}
 h3 {
   font-size: 1.7rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/webthingee\/Sites\/projects\/drupal-7\.21\/sites\/all\/themes\/amend\/scss\/base\/_headings\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krisbulman\/code\/scss-boilerplate\/scss\/base\/_headings\.scss}line{font-family:\0000337}}
 .page-title {
   @extends %page-title;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/webthingee\/Sites\/projects\/drupal-7\.21\/sites\/all\/themes\/amend\/scss\/base\/_headings\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krisbulman\/code\/scss-boilerplate\/scss\/base\/_headings\.scss}line{font-family:\0000340}}
 .node-article .page-title {
   color: purple;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/webthingee\/Sites\/projects\/drupal-7\.21\/sites\/all\/themes\/amend\/scss\/base\/_headings\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krisbulman\/code\/scss-boilerplate\/scss\/base\/_headings\.scss}line{font-family:\0000346}}
 .page-title--uppercase {
   @extends %page-title;
   text-transform: uppercase;
 }
+
+/* Components and abstractions */
+/* Layout */
