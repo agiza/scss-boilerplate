@@ -3,3 +3,7 @@
 ## generic folders to ignore
 .idea
 .sass-cache
+
+## ignore CSS contents
+css/*
+
