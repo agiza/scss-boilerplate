@@ -3,9 +3,4 @@ ___
 
 
 ### style.scss Details
-Include the key scss sheets from the four partial directories.
-
-* @import "global/global";
-* @import "base/base";
-* @import "layout/layout";
-* @import "components/components";
+Include the scss stylesheets from the partial directories.
