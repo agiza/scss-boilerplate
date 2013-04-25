@@ -3,8 +3,7 @@ ___
 
 ### Layout Directory Details
 * Parent directory is 'layout'.
-* _layout.scss provides the @import for all of the partials in this folder.
-* _layout.scss is imported by style.scss.
+* partials found here are imported by style.scss.
 
 
 ### Layouts Partials
