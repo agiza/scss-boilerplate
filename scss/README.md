@@ -5,6 +5,7 @@ ___
 ### style.scss Details
 Include the scss stylesheets from the partial directories.
 
+```ruby
 /* Global utility mixins and vars etc. */  
 @import "global/variables";  
 @import "global/mixins";  
@@ -20,3 +21,4 @@ Include the scss stylesheets from the partial directories.
 /* Layout */  
 @import "layout/l-header";  
 @import "layout/l-footer";  
+```
