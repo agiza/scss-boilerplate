@@ -35,7 +35,7 @@ h3 {
 }
 
 .page-title {
-  @extends %page-title;
+  @extend %page-title;
 
   .node-article & {
     color: purple;
@@ -44,6 +44,6 @@ h3 {
 }
 
 .page-title--uppercase {
-  @extends %page-title;
+  @extend %page-title;
   text-transform: uppercase;
 }
