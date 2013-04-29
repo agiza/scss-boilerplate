@@ -1,16 +1,18 @@
 # Change this to :production when ready to deploy the CSS to the live server.
-  environment = :production
+  environment = :development
 
 # In development, we can turn on the FireSass-compatible debug_info.
   firesass = false
 
 # Location of the theme's resources.
-  css_dir         = "css"
-  sass_dir        = "scss"
-  extensions_dir  = "../../libraries/sass-extensions"
-  images_dir      = "images"
-  javascripts_dir = "js"
-  fonts_dir       = "assets"
+  css_dir              = "css"
+  sass_dir             = "scss"
+  javascripts_dir      = "js"
+  fonts_dir            = "fonts"
+  images_dir           = "images"
+  sprite_load_path     = "assets/sprites"
+  generated_images_dir = "images"
+  extensions_dir       = "../../libraries/sass-extensions"
   relative_assets = true
 
 # Require any additional compass plugins installed on your system.
