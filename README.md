@@ -46,3 +46,8 @@ git update-index --assume-unchanged config.rb
 
 The snippet above will keep git from whining about changes you make to the file.
 
+To revert this command, use the following:
+
+```
+git update-index --no-assume-unchanged config.rb
+```
